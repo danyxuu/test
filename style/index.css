@@ -1,0 +1,844 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    background: #000 url(../images/bg.gif) repeat-x 0 -720px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    border: none;
+}
+#header{
+    width: 960px;
+    height: 89px;
+    background: url(../images/global.gif) no-repeat;
+}
+#header #logo{
+    width: 169px;
+    height: 89px;
+    float: left;
+}
+#header #logo a{
+    width: 169px;
+    height: 89px;
+    display: block;
+    text-indent: -9999px;
+}
+#header #login{
+    width: 272px;
+    height: 19px;
+    line-height: 19px;
+    padding: 4px;
+    float: left;
+}
+#header #login input.text{
+    width: 70px;
+    height: 17px;
+    border: 1px solid #878787;
+    margin-right: 6px;
+}
+#header #login input.button{
+    width: 49px;
+    height: 19px;
+    background: url(../images/global.gif) no-repeat -300px -100px;
+    cursor: pointer;
+    color: #504f4f;
+    border: none;
+    margin-right:6px; 
+}
+#header #lead{
+    width: 480px;
+    height: 19px;
+    float: left;
+    margin-left: 28px;
+    line-height: 26px;
+}
+#header #lead a{
+    color: #504f4f;
+}
+#header #supnav{
+    width: 791;
+    height: 32px;
+    float: left;
+    overflow: hidden;
+}
+#header #supnav ul li{
+    float: left;
+    height: 32px;
+    width: 76px;
+    line-height: 32px;
+    background: url(../images/global.gif) no-repeat right -96px;
+    text-align: center;
+    margin-left: -2px;
+}
+#header #supnav ul li.index{
+    width: 52px;
+}
+#header #supnav ul li.end{
+    width: 75px;
+}
+#header #supnav li a{
+    display: block;
+    color: #fff;
+    font-weight: bold;
+}
+#header #supnav li a:hover{
+    background: url(../images/global.gif) no-repeat -380px -100px;
+}
+#header #subnav{
+    width: 791px;
+    height: 27px;
+    float: left;
+}
+#header #subnav ul{
+    margin-left: 26px;
+}
+#header #subnav ul li{
+    float: left;
+    height: 27px;
+    width: 85px;
+    line-height: 27px;
+}
+#header #subnav ul li a{
+    color: #fff;
+}
+#wrap{
+    width: 960px;
+    height: 164px;
+    background: blue;
+}
+#wrap img{
+    display: block;
+    float: left;
+}
+#nav{
+    width: 960px;
+    height: 69px;
+    background: url(../images/global.gif) no-repeat left -177px;
+}
+#nav img{
+    float: right;
+}
+#nav ul{
+    width: 759px;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+    text-align: center;
+}
+#nav ul li{
+    display: inline;
+    color: #fff;
+}
+#nav ul li a{
+    color: #fff;
+}
+#nav ul.bottom{
+    margin-left: 12px;
+    width: 747px;
+}
+#nav ul.bottom li .hot{
+    color: yellow;
+}
+#nav ul li a:hover{
+    text-decoration: none;
+}
+#content{
+    background: url(../images/contentbg.jpg);
+    height: 1540px;
+    padding: 4px 10px 10px 10px;
+    position: relative;
+}
+#content .topic{
+    width: 303px;
+    height: 192px;
+    background: url(../images/bodytop.gif) no-repeat 0 -124px;
+    margin-bottom: 6px;
+}
+#content .topic h1{
+    font-size: 100%;
+    height: 38px;
+    background: url(../images/bodytop.gif) no-repeat 0 0;
+    padding-top: 9px; 
+}
+#content .topic h1 a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    width: 45px;
+    height: 23px;
+    line-height: 23px;
+    background: #fff url(../images/bodytop.gif) no-repeat -241px -152px;
+    display: block;
+    text-align: center;
+    margin: 0 7px 0 auto;
+}
+#content .topic div{
+    height: 123px;
+    background: url(../images/bodytop.gif) no-repeat 0 -331px;
+    padding: 0 15px;
+    padding-top: 6px;
+}
+#content .topic div img{
+    border: 1px solid #000;
+    float: left;
+    margin-right: 7px;
+}
+#content .topic div h2{
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+#content .topic div h2 a{
+    color: red;
+}
+#content .topic div h2 a:hover{
+    text-decoration: none;
+}
+#content .topic div p{
+    width: 157px;
+    height: 96;
+    float: right;
+    margin-right: 7px;
+    padding-top: 4px;
+    line-height: 19px;
+}
+#content .topic div p a{
+    color: #666;
+}
+#content .star{
+    width: 303px;
+    height: 196px;
+    background: url(../images/bodytop.gif) no-repeat 0 -120px;
+    margin-bottom: 5px;  
+}
+#content .star h1{
+     height: 38px;
+     font-size: 100%;
+     background: url(../images/bodytop.gif) no-repeat 0 -47px;
+     padding-top: 9px;
+}
+#content .star h1 a{
+    display: block;
+    background:#fff  url(../images/bodytop.gif) no-repeat  -241px -152px;
+    width: 45px;
+    height: 23px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 23px;
+    margin: 0 7px 0 auto;
+}
+#content .star div{
+    background: url(../images/bodytop.gif) no-repeat 0 -331px;
+    height: 133px;
+    padding: 0 15px;
+    padding-top: 8px;
+}
+#content .star div img{
+    float: left;
+    width: 100px;
+    height: 112px;
+    border: 1px solid #000;
+}
+#content .star div h2{
+    font-size: 12px;    
+}
+#content .star div h2 a{
+    color: red;
+    margin-left: 6px;
+}
+#content .star div h2 a:hover{
+    text-decoration: none;
+}
+#content .star div p{
+    width: 156px;
+    height: 96px;
+    padding-top: 6px;
+    padding-right: 8px;
+    float: right;
+}
+#content .star div p a{
+    color: #666;
+    line-height: 18px;
+}
+
+
+#content .update{
+    width: 303px;
+    height: 195px;
+    background: url(../images/bodytop.gif) no-repeat 0 -121px;
+    margin-bottom: 7px;
+}
+#content .update h1{
+    height: 38px;
+    background: url(../images/bodytop.gif) no-repeat left -94px;
+    font-size: 100%;
+    padding-top: 9px;
+}
+#content .update h1 a{
+    display: block;
+    width: 45px;
+    height: 23px;
+    background: #fff url(../images/bodytop.gif) no-repeat -241px -152px;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 7px 0 auto;
+}
+#content .update div{
+    height: 133px;
+    background: url(../images/bodytop.gif) no-repeat 0 -331px;
+    padding: 0 15px;
+    padding-top: 8px;
+}
+#content .update div img{
+    float: left;
+    border: 1px solid #000;
+}
+#content .update div h2{
+    font-size: 12px;
+}
+#content .update div h2 a{
+    margin-left: 6px;
+    color: red;
+}
+#content .update div h2 a:hover{
+    text-decoration: none;
+}
+#content .update div p{
+    float: right;
+    width: 159px;
+    height: 95px;
+    margin-right: 6px;
+    padding-top: 6px;
+    line-height: 19px;
+}
+#content .update div p a{
+    color: #666;
+}
+#content #adv{
+    width: 401px;
+    height: 190px;
+    background: url(../images/bodytop.gif) no-repeat -303px top;
+    position: absolute;
+    top: 6px;
+    left: 322px;
+}
+#content #adv #slider4{
+    width: 370px;
+    height: 170px;
+    background: #333;
+    margin-left: 15px;
+    margin-top: 11px;
+    position: relative;
+}
+#content #adv #slider4 #paginate-slider4{
+    height: 16px;
+    position: absolute;
+    top: 154px;
+    left: 250px;
+    filter: progid:DXImageTransform.Microsoft.alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity: 0.8;
+    background: #000;
+}
+#content #adv #slider4 #paginate-slider4 div.contentdiv,div.contentdiv sliderfilter{
+    display: none;
+    z-index: 18;
+    opacity: 0.9;
+    visibility: visible;
+}
+#content #adv #slider4 #paginate-slider4 a{
+    border: 1px solid #fff;
+    height: 16px;
+    width: 23px;
+    float: left;
+    font-family: Tahoma;
+    border-bottom: none;
+    border-right: none;
+    line-height: 16px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    font-style: normal;
+}
+#content #adv #slider4 #paginate-slider4 a:hover,#content #adv #slider4 #paginate-slider4 a.selected{
+    background: #d45f08;
+    text-decoration: none;
+}
+#content #adv #slider4 a.line{
+    display: block;
+    height: 2px;
+    width: 150px;
+    background: #000;
+    position: absolute;
+    top: 170px;
+    left: 220px;
+}
+#content .fous{
+    width: 400px;
+    height: 395px;
+    background: url(../images/bodytop.gif) no-repeat 0 95px;
+    position: absolute;
+    top: 203px;
+    left: 322px;
+}
+#content .fous h1{
+    width: 400px;
+    height: 50px;
+    background: url(../images/bodytop.gif) no-repeat 0 -234px;
+    text-indent: -9999px;
+}
+#content .fous div{
+    height: 334px;
+    background: url(../images/bodytop.gif) no-repeat -303px -309px;
+}
+#content .fous div h2{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 4px;
+    line-height: 16px;
+}
+#content .fous div h2 a{
+    color: red;
+}
+#content .fous div h2 a:hover{
+    text-decoration: none;
+}
+#content .fous div h3{
+    width: 360px;
+    font-size: 12px;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+#content .fous div h3 a{
+    color: #000;
+}
+#content .fous div h3 a:hover{
+    color: #d45f08;
+}
+#content .fous div ul{
+    width: 360px;
+    margin: 0 auto;
+    line-height: 23px;
+}
+#content .fous div ul li{
+    border-bottom: 1px dotted #666;
+}
+#content .fous div ul li a{
+    color: #666;
+}
+#content .fous div ul li em{
+    float: right;
+    color: #666;
+    font-style: normal;
+}
+#content .data{
+    width: 220px;
+    height: 168px;
+    background: url(../images/bodytop.gif) no-repeat left -163px;
+    position: absolute;
+    top: 4px;
+    left: 730px;
+}
+#content .data h1{
+    text-indent: -9999px;
+    height: 44px;
+    background: url(../images/bodytop.gif) no-repeat left -190px;
+}
+#content .data div{
+    background: url(../images/bodytop.gif) no-repeat left -481px;
+    height: 102px;
+    padding-top: 7px;
+}
+#content .data div ul{
+    width: 180px;
+    height: 98px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+#content .data div ul li a{
+    color: #666;
+}
+#content .da{
+    width: 220px;
+    height: 133px;
+    background: url(../images/bodytop.gif) no-repeat -391px -31px;
+    position: absolute;
+    top: 180px;
+    left: 730px;
+}
+#content .da img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+#content .da img.togo{
+    margin-top: 10px;
+}
+#content .tyro{
+    width: 220px;
+    height: 152px;
+    background: url(../images/bodytop.gif) no-repeat left -179px;
+    position: absolute;
+    top:318px; 
+    left: 730px;
+}
+#content .tyro h1{
+    text-indent: -9999px;
+    height: 46px;
+    background: url(../images/bodytop.gif) no-repeat left -142px;
+}
+#content .tyro div{
+    height: 94px;
+    background: url(../images/bodytop.gif) no-repeat left -481px;
+}
+#content .tyro div ul{
+    width: 183px;
+    height: 90px;
+    line-height: 22px;
+    margin: 0 auto;
+}
+#content .tyro div ul li a{
+    color: #666;
+}
+#content .vc{
+    width: 220px;
+    height: 118px;
+    background: url(../images/bodytop.gif) no-repeat -402px -190px; 
+    position: absolute;
+    top: 480px;
+    left: 730px;
+}
+#content .vc img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+#content .video{
+    width: 680px;
+    height: 407px;
+    float: left;
+    background: #950502;
+    margin-bottom: 7px;
+    position: relative;
+}
+#content .video h1{
+    height: 44px;
+    background: url(../images/body2.gif) no-repeat 0 -561px;
+}
+#content .video h1 a.a{
+    width: 128px;
+    height: 44px;
+    float: left;
+    font-size: 100%;
+}
+#content .video h1 a.b{
+    font-size: 100%;
+    width: 212px;
+    height: 44px;
+    float: left;
+}
+#content .video ul{
+    width: 641px;
+    height: 31px;
+    background: #fff url(../images/body2.gif) no-repeat 7px -520px;
+    padding-left: 20px;
+    margin-left: 8px;
+    line-height: 31px;
+}
+#content .video ul li{
+    display: inline;
+    font-size: 12px;
+    color: #fff;
+}
+#content .video ul li a{
+    color: #fff;
+}
+#content .video div{
+    background: #fff;
+    width: 647px;
+    height: 322px;
+    margin-left: 8px;
+    padding-left: 14px;
+}
+#content .video div dl{
+    width: 158px;
+    height: 153px;
+    background: url(../images/body2.gif) no-repeat -281px -362px;
+    float: left;
+    margin-top: 5px;
+}
+#content .video div dl dt{
+    width: 122px;
+    height: 108px;
+    background: url(../images/body2.gif) no-repeat -336px -98px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+#content .video div dl dt img{
+    width: 120px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+#content .video div dl dd{
+    width: 122px;
+    line-height: 15px;
+    text-align: center;
+    padding-left: 18px;
+    padding-top: 4px;
+}
+#content .video div dl dd a{
+    color: #fff;
+    text-decoration: none;
+}
+#content .channel{
+    width: 260px;
+    height: 407px;
+    background: #950502 url(../images/body2.gif) no-repeat -467px 308px;
+    margin-bottom: 7px;
+    float: left;
+}
+#content .channel div{
+    width: 260px;
+    height: 407px;
+    background: #950502 url(../images/body2.gif) no-repeat -467px -101px;
+}
+#content .channel div ul{
+   padding-top: 17px;
+}
+#content .channel div ul li{
+   display: block;
+   width: 250px;
+   height: 120px;
+   background: #fff;
+   margin-bottom: 10px;
+   border-radius: 10px;
+}
+#content .channel div ul li img{
+    padding-left: 13px;
+    padding-top: 10px;
+}
+#content .ath{
+    width: 327px;
+    height: 393px;
+    background: #940800;
+    margin-bottom: 10px;
+    float: left;
+}
+#content .ath h1{
+    height: 38px;
+    padding-top: 9px;
+    background: url(../images/body2.gif) no-repeat 0 0;
+}
+#content .ath h1 a{
+    display: block;
+    width: 45px;
+    height: 23px;
+    background: url(../images/bodytop.gif) no-repeat -241px -152px; 
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    margin: 0 9px 0 auto;
+}
+#content .ath h1 a:hover{
+    text-decoration: none;
+}
+#content .ath div{
+    width: 309px;
+    height: 325px;
+    background: #fff url(../body2.gif) no-repeat -10px -737px;
+    padding-top: 5px;
+    margin-left: 8px;
+}
+#content .ath div img{
+    width: 112px;
+    height: 99px;
+    float: left;
+    margin-left: 12px;
+    border: 1px solid #000;
+}
+#content .ath div h2{
+    float: left;
+    font-size: 12px;
+    color: #666695;
+    padding-left: 8px;
+}
+#content .ath div p{
+    float: right;
+    width: 162px;
+    height: 76px;
+    line-height: 24px;
+    color: #666;
+    padding-right: 14px;
+}
+#content .ath div ul{
+    display: block;
+    float: left;
+    width: 288px;
+    height: 209px;
+    padding-left: 12px;
+    line-height: 24px;
+}
+#content .ath div ul li{
+    color: #666;
+    border-bottom: 1px dotted #666;
+}
+#content .ath div ul li a{
+    color: #666;
+}
+#content .ath div ul li em{
+    float: right;
+    font-style: normal;
+}
+#content .col{
+    width: 327px;
+    height: 393px;
+    background: #940800;
+    float: left;
+    margin-left: 6px;
+}
+#content .col h1{
+    background: url(../images/body2.gif) no-repeat 0 -47px;
+    height: 38px;
+    padding-top: 9px;
+}
+#content .col h1 a{
+    display: block;
+    width: 45px;
+    height: 23px;
+    background: url(../images/bodytop.gif) no-repeat -241px -152px; 
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    margin: 0 9px 0 auto;
+}
+#content .col h1 a:hover{
+    text-decoration: none;
+}
+#content .col div{
+    width: 320px;
+    height: 325px;
+    background: #fff url(../images/body2.gif) no-repeat -10px -737px;
+    padding-top: 5px;
+}
+#content .col div img{
+    float: left;
+    width: 112px;
+    height: 99px;
+    border: 1px solid #000;
+    margin-left: 20px;
+}
+#content .col div h2{
+    float: left;
+    font-size: 12px;
+    color: #666695;
+    padding-left: 8px;
+}
+#content .col div p{
+    width: 166px;
+    height: 76px;
+    float: right;
+    padding-right: 10px;
+    color: #666;
+    line-height: 24px;
+}
+#content .col div ul{
+    display: block;
+    float: left;
+    width: 288px;
+    height: 209px;
+    padding-left: 20px;
+    line-height: 24px;
+}
+#content .col div ul li{
+    color: #666;
+    border-bottom: 1px dotted #666;
+}
+#content .col div ul li a{
+    color: #666;
+}
+#content .col div ul li em{
+    float: right;
+    font-style: normal;
+}
+#content .belle{
+    width: 273px;
+    height: 393px;
+    background: #940800;
+    float: left;
+    margin-left: 6px;
+}
+#content .belle h1{
+    height: 38px;
+    padding-top: 9px;
+    background: url(../images/body2.gif) no-repeat 0 -383px;
+}
+#content .belle h1 a{
+    display: block;
+    background: url(../images/bodytop.gif) no-repeat -241px -152px;
+    width: 45px;
+    height: 23px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 23px;
+    margin: 0 9px 0 auto;
+    text-align: center;
+}
+#content .belle h1 a:hover{
+    text-decoration: none;
+}
+#content .belle div{
+    background:#fff url(../images/body2.gif) no-repeat -339px -737px;
+	height:330px;
+}
+#content .belle div div{
+    padding-left: 20px;
+}
+#content .belle div div a img{
+    padding-top: 8px;
+}
+#content .bbs{
+    background: url(../images/body2.gif) no-repeat 0 -1072px;
+    width: 940px;
+    height: 124px;
+    position: absolute;
+    top: 1420px;
+    left: 10px;
+}
+#content .bbs img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#footer{
+    width: 960px;
+    height: 38px;
+    background: url(../images/global.gif) no-repeat 0 -140px;
+    padding-left: 778px;
+    line-height: 32px; 
+}
